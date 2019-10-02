@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello World!");
-        int totalLengh = a.length + b.length;
+        /*int totalLengh = a.length + b.length;
 
         int c[] = new int[totalLengh];
 
@@ -24,6 +24,34 @@ public class Main {
             }
 
             System.out.println("" + c[i]);
+        }*/
+
+        int a = 100;
+        Integer b = 100;
+        Integer y = new Integer(100);
+
+        if (a == b) {
+            System.out.println("a & b values are equal");
+        } else {
+            System.out.println("a & b values are not equal");
+        }
+
+
+        if (b == y) {
+            System.out.println("b & y values are equal");
+        } else {
+            System.out.println("b & y values are not equal");
+        }
+
+
+        if (b.equals(y)) {
+
+            System.out.println("Equals method : b & y values are equal");
+
+        } else {
+
+            System.out.println("Equals method: b & y values are not equal");
+
         }
     }
 }
